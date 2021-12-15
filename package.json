@@ -1,14 +1,17 @@
 {
-  "name": "mimall",
+  "name": "test",
   "version": "1.0.0",
-  "description": "egg.js仿小米商城",
+  "description": "",
   "private": true,
   "egg": {
     "declarations": true
   },
   "dependencies": {
     "egg": "^2.15.1",
-    "egg-scripts": "^2.11.0"
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^6.0.0",
+    "mysql2": "^2.3.3"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -17,14 +20,15 @@
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "eslint-config-egg": "^7.1.0",
+    "sequelize-cli": "^6.3.0"
   },
   "engines": {
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-mimall",
-    "stop": "egg-scripts stop --title=egg-server-mimall",
+    "start": "egg-scripts start --daemon --title=egg-server-test",
+    "stop": "egg-scripts stop --title=egg-server-test",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
@@ -41,6 +45,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "lilei",
+  "author": "",
   "license": "MIT"
 }

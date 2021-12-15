@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "1213564228",
+    "password": "root1213",
+    "database": "xiaomi_mall",
+    "host": "120.24.245.68",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "1213564228",
+    "password": "root1213",
+    "database": "xiaomi_mall",
+    "host": "120.24.245.68",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "1213564228",
+    "password": "root1213",
+    "database": "xiaomi_mall",
+    "host": "120.24.245.68",
+    "dialect": "mysql"
+  }
+}
